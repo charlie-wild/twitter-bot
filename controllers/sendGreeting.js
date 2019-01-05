@@ -1,5 +1,5 @@
-import T from '../envs';
-import greet from './message';
+const T = require('../envs');
+const greet = require('./message');
 
 const sendGreeting = (user) => {
   T.post('direct_messages/new',
