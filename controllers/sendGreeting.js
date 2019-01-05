@@ -9,7 +9,7 @@ const sendGreeting = (user) => {
   },
   (err) => {
     if(err) {
-      console.log(err);
+      console.err(err);
     }
   }
   )
