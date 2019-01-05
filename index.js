@@ -1,4 +1,4 @@
-import T from '../envs'
+const T = require('./envs')
 const stream = T.stream('user')
 const sendGreeting = require('./controllers/sendGreeting')
 const verifyCredentials = require('./controllers/verify')
