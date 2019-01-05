@@ -1,4 +1,4 @@
-import Twit from 'twit';
+const Twit = require('twit');
 
 const T = new Twit({
   consumer_key: process.env.consumer_key,
