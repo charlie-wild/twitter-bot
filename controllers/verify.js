@@ -1,4 +1,5 @@
 import T from '../envs';
+const stream = T.stream('user')
 
 const verifyCredentials = (cb) => {
   T.get(
