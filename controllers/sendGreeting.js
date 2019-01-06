@@ -9,7 +9,8 @@ const sendGreeting = (user) => {
   },
   (err) => {
     if(err) {
-      console.err(err);
+      console.error('error in sendGreeting to user: %s %s %s', user.name, user.screen_name, user.id_str)
+      console.error(err);
     }
   }
   )
